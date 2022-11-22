@@ -10,6 +10,16 @@ type Item = {
 
 export const demos: Item[] = [
   {
+    name: 'Web3',
+    items: [
+      {
+        name: 'クリプトアプリケーション',
+        slug: 'web3',
+        description: 'クリプトアプリケーション'
+      }
+    ]
+  },
+  {
     name: 'Layouts',
     items: [
       {
