@@ -16,8 +16,13 @@ export const demos: Item[] = [
         name: 'クリプトアプリケーション',
         slug: 'web3',
         description: 'クリプトアプリケーション'
+      },
+      {
+        name: '🦊 メタマスク',
+        slug: 'metamask',
+        description: 'メタマスク認証の例'
       }
-    ]
+    ],
   },
   {
     name: 'Layouts',

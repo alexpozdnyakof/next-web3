@@ -4,11 +4,6 @@ import {ethers} from 'ethers'
 import Greeter from '../../artifacts/contracts/Greeter.sol/Greeter.json'
 import React, {useState} from 'react';
 
-interface Window {
-  ethereum: any;
-}
-declare const window: Window
-
 const greeterAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'
 
 
