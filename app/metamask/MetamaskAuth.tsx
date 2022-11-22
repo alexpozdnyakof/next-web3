@@ -9,6 +9,7 @@ export default function MetamaskAuth(){
     connectWallet,
     connected,
     address,
+    balance
   } = useMetamask()
   return (
     <>
@@ -37,6 +38,7 @@ export default function MetamaskAuth(){
         >
        <div>{connected ? '🟢 接続済み' : '🕔🕔🕔'}</div>
        <div>🟣 住所: {address}</div>
+       <div>🪙 残高: {balance} ETH</div>
     </Boundary> : null}
     </>
   )
